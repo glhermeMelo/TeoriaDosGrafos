@@ -6,6 +6,7 @@
 #define TEORIADOSGRAFOS_IMPRESSORDEMATRIZ_H
 #include <format>
 #include <iostream>
+#include <fstream>
 #include <iomanip>
 #include <vector>
 
@@ -14,6 +15,7 @@ using std::cout;
 using std::endl;
 using std::vector;
 using std::setw;
+using std::ofstream;
 
 constexpr int INF = 100000000;
 

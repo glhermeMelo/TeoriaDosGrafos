@@ -20,4 +20,5 @@ void floydWarshall(const vector<vector<int>> &grafo) {
     }
 
     imprimirMatriz(grafoD);
+    gerarArquivoGraphviz("MatrizDistânciaMínima.txt");
 }

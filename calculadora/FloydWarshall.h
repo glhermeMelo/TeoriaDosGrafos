@@ -8,6 +8,7 @@
 #include <vector>
 #include <iomanip>
 #include "../service/ImpressorDeMatriz.h"
+#include "../service/GeradorGraphviz.h"
 
 using std::cin;
 using std::cout;
