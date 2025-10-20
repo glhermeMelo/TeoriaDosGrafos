@@ -20,15 +20,15 @@ vector<vector<int>> leitorDeArquivoTXT(string path) {
 
     while (getline(arquivo, linha)) {
         stringstream ss(linha);
-        int valor;
+        string token;
         vector<int> linhaDoGrafo;
         int contadorColunas = 0;
 
-        while (ss >> valor) {
-            if (valor == -1) {
+        while (ss >> token) {
+            if (token == "INF") {
                 linhaDoGrafo.push_back(INF);
             } else {
-                linhaDoGrafo.push_back(valor);
+                linhaDoGrafo.push_back(stoi(token));
             }
             contadorColunas++;
         }
