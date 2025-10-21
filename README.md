@@ -1,4 +1,4 @@
-# 🧩 Algoritmo de Caminho Mínimo - FLoyd Warshall
+# 🧩 Algoritmo de Caminho Mínimo - Floyd Warshall
 
 O algoritmo de **Floyd–Warshall** é um método clássico para encontrar o caminho mínimo entre todos os pares de vértices em um grafo ponderado (com pesos nas arestas). Ele funciona tanto para grafos direcionados quanto não direcionados, desde que não contenham ciclos de peso negativo.
 
